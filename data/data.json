@@ -1,0 +1,371 @@
+[
+  {
+    "city": "New York",
+    "state": "ny",
+    "wins": 54,
+    "MLB": 35,
+    "NFL": 9,
+    "NBA": 2,
+    "NHL": 8
+  },
+  {
+    "city": "Boston",
+    "state": "ma",
+    "wins": 40,
+    "MLB": 10,
+    "NFL": 6,
+    "NBA": 18,
+    "NHL": 6
+  },
+  {
+    "city": "Chicago",
+    "state": "il",
+    "wins": 29,
+    "MLB": 6,
+    "NFL": 11,
+    "NBA": 6,
+    "NHL": 6
+  },
+  {
+    "city": "Los Angeles",
+    "state": "la",
+    "wins": 25,
+    "MLB": 7,
+    "NFL": 3,
+    "NBA": 12,
+    "NHL": 3
+  },
+  {
+    "city": "Montreal",
+    "state": "qc",
+    "wins": 24,
+    "MLB": 0,
+    "NFL": 0,
+    "NBA": 0,
+    "NHL": 24
+  },
+  {
+    "city": "Detroit",
+    "state": "mi",
+    "wins": 22,
+    "MLB": 4,
+    "NFL": 4,
+    "NBA": 3,
+    "NHL": 11
+  },
+  {
+    "city": "Philadelphia",
+    "state": "pa",
+    "wins": 17,
+    "MLB": 7,
+    "NFL": 4,
+    "NBA": 4,
+    "NHL": 2
+  },
+  {
+    "city": "Pittsburgh",
+    "state": "pa",
+    "wins": 16,
+    "MLB": 5,
+    "NFL": 6,
+    "NBA": 0,
+    "NHL": 5
+  },
+  {
+    "city": "Toronto",
+    "state": "on",
+    "wins": 16,
+    "MLB": 2,
+    "NFL": 0,
+    "NBA": 1,
+    "NHL": 13
+  },
+  {
+    "city": "St. Louis",
+    "state": "mo",
+    "wins": 14,
+    "MLB": 11,
+    "NFL": 1,
+    "NBA": 1,
+    "NHL": 1
+  },
+  {
+    "city": "Green Bay",
+    "state": "wi",
+    "wins": 13,
+    "MLB": 0,
+    "NFL": 13,
+    "NBA": 0,
+    "NHL": 0
+  },
+  {
+    "city": "Cleveland",
+    "state": "mi",
+    "wins": 12,
+    "MLB": 2,
+    "NFL": 9,
+    "NBA": 1,
+    "NHL": 0
+  },
+  {
+    "city": "Oakland",
+    "state": "ca",
+    "wins": 10,
+    "MLB": 4,
+    "NFL": 2,
+    "NBA": 4,
+    "NHL": 0
+  },
+  {
+    "city": "San Francisco",
+    "state": "ca",
+    "wins": 9,
+    "MLB": 3,
+    "NFL": 5,
+    "NBA": 1,
+    "NHL": 0
+  },
+  {
+    "city": "Washington D.C.",
+    "state": "dc",
+    "wins": 9,
+    "MLB": 2,
+    "NFL": 5,
+    "NBA": 1,
+    "NHL": 1
+  },
+  {
+    "city": "Baltimore",
+    "state": "md",
+    "wins": 8,
+    "MLB": 3,
+    "NFL": 5,
+    "NBA": 0,
+    "NHL": 0
+  },
+  {
+    "city": "Dallas",
+    "state": "tx",
+    "wins": 7,
+    "MLB": 0,
+    "NFL": 5,
+    "NBA": 1,
+    "NHL": 1
+  },
+  {
+    "city": "Denver",
+    "state": "co",
+    "wins": 7,
+    "MLB": 0,
+    "NFL": 3,
+    "NBA": 1,
+    "NHL": 3
+  },
+  {
+    "city": "Miami",
+    "state": "fl",
+    "wins": 7,
+    "MLB": 2,
+    "NFL": 2,
+    "NBA": 3,
+    "NHL": 0
+  },
+  {
+    "city": "Minneapolis",
+    "state": "mn",
+    "wins": 7,
+    "MLB": 2,
+    "NFL": 0,
+    "NBA": 5,
+    "NHL": 0
+  },
+  {
+    "city": "Kansas City",
+    "state": "mo",
+    "wins": 6,
+    "MLB": 2,
+    "NFL": 4,
+    "NBA": 0,
+    "NHL": 0
+  },
+  {
+    "city": "Cincinnati",
+    "state": "oh",
+    "wins": 5,
+    "MLB": 5,
+    "NFL": 0,
+    "NBA": 0,
+    "NHL": 0
+  },
+  {
+    "city": "Edmonton",
+    "state": "al",
+    "wins": 5,
+    "MLB": 0,
+    "NFL": 0,
+    "NBA": 0,
+    "NHL": 5
+  },
+  {
+    "city": "San Antonio",
+    "state": "tx",
+    "wins": 5,
+    "MLB": 0,
+    "NFL": 0,
+    "NBA": 5,
+    "NHL": 0
+  },
+  {
+    "city": "Tampa",
+    "state": "fl",
+    "wins": 5,
+    "MLB": 0,
+    "NFL": 2,
+    "NBA": 0,
+    "NHL": 3
+  },
+  {
+    "city": "Houston",
+    "state": "tx",
+    "wins": 4,
+    "MLB": 2,
+    "NFL": 0,
+    "NBA": 2,
+    "NHL": 0
+  },
+  {
+    "city": "East Rutherford",
+    "state": "nj",
+    "wins": 3,
+    "MLB": 0,
+    "NFL": 0,
+    "NBA": 0,
+    "NHL": 3
+  },
+  {
+    "city": "Milwaukee",
+    "state": "wi",
+    "wins": 3,
+    "MLB": 1,
+    "NFL": 0,
+    "NBA": 2,
+    "NHL": 0
+  },
+  {
+    "city": "Atlanta",
+    "state": "ga",
+    "wins": 2,
+    "MLB": 2,
+    "NFL": 0,
+    "NBA": 0,
+    "NHL": 0
+  },
+  {
+    "city": "Seattle",
+    "state": "wa",
+    "wins": 2,
+    "MLB": 0,
+    "NFL": 1,
+    "NBA": 1,
+    "NHL": 0
+  },
+  {
+    "city": "Calgary",
+    "state": "al",
+    "wins": 1,
+    "MLB": 0,
+    "NFL": 0,
+    "NBA": 0,
+    "NHL": 1
+  },
+  {
+    "city": "Indianapolis",
+    "state": "in",
+    "wins": 1,
+    "MLB": 0,
+    "NFL": 1,
+    "NBA": 0,
+    "NHL": 0
+  },
+  {
+    "city": "Las Vegas",
+    "state": "nv",
+    "wins": 1,
+    "MLB": 0,
+    "NFL": 0,
+    "NBA": 0,
+    "NHL": 1
+  },
+  {
+    "city": "New Orleans",
+    "state": "la",
+    "wins": 1,
+    "MLB": 0,
+    "NFL": 1,
+    "NBA": 0,
+    "NHL": 0
+  },
+  {
+    "city": "Phoenix",
+    "state": "az",
+    "wins": 1,
+    "MLB": 1,
+    "NFL": 0,
+    "NBA": 0,
+    "NHL": 0
+  },
+  {
+    "city": "Portland",
+    "state": "or",
+    "wins": 1,
+    "MLB": 0,
+    "NFL": 0,
+    "NBA": 1,
+    "NHL": 0
+  },
+  {
+    "city": "Raleigh",
+    "state": "nc",
+    "wins": 1,
+    "MLB": 0,
+    "NFL": 0,
+    "NBA": 0,
+    "NHL": 1
+  },
+  {
+    "city": "Rochester",
+    "state": "ny",
+    "wins": 1,
+    "MLB": 0,
+    "NFL": 0,
+    "NBA": 1,
+    "NHL": 0
+  },
+  {
+    "city": "Syracuse",
+    "state": "ny",
+    "wins": 1,
+    "MLB": 0,
+    "NFL": 0,
+    "NBA": 1,
+    "NHL": 0
+  },
+  {
+    "city": "Arlington",
+    "state": "tx",
+    "wins": 1,
+    "MLB": 1,
+    "NFL": 0,
+    "NBA": 0,
+    "NHL": 0
+  },
+  {
+    "city": "Sunrise",
+    "state": "fl",
+    "wins": 1,
+    "MLB": 0,
+    "NFL": 0,
+    "NBA": 0,
+    "NHL": 1
+  }
+]
