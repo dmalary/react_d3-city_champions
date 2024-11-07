@@ -1,10 +1,5 @@
-/* eslint-disable react/prop-types */
-
-// import { useState } from 'react'
-
 import './App.css'
 
-// import DonutChart from "../components/DonutChart";
 import SmallMultiples from "../components/SmallMultiples";
 
 import data from "../data/data.json";
@@ -22,11 +17,10 @@ function App() {
       { name: 'nhl', value: el.NHL },
     ]
   }))
-  console.log('workingData', workingData.length)
+  // console.log('workingData', workingData.length)
 
   return (
     <>
-      {/* <DonutChart width={200} height={200} data={workingData[0]} /> */}
       <SmallMultiples data={workingData} />
     </>
   )
