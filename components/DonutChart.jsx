@@ -15,24 +15,21 @@ const specs = {
 };
 
 const colorScale = d3.scaleOrdinal()
-  .domain(['mlb', 'nfl', 'nba', 'nhl'])
+  // .domain(['mlb', 'nfl', 'nba', 'nhl'])
+  .domain([0, 1, 2, 3])
   .range(['#26547C', '#EF476F', '#FFD166', '#06D6A0'])
 
-const DonutChart = ({ width, height, data }) => {
+const DonutChart = ({ key, width, height, data }) => {
 
-  // console.log('width', width);
-  // console.log('height', height);
-  console.log('data', data);
-
-  const radius = Math.min(width, height) / 6 - specs.margin.global;
-  console.log('radius', radius)
+  const radius = Math.min(width, height) / 2 - specs.margin.global;
+  // console.log('radius', radius)
 
   const pie = useMemo(() => {
     const pieGenerator = d3.pie().value((d) => d.value);
     
     return pieGenerator(data.sports)
   }, [data]);
-  console.log('pie', pie)
+  // console.log('pie', pie)
 
   const arcs = useMemo(() => {
     const arcPathGenerator = d3.arc();
@@ -49,9 +46,10 @@ const DonutChart = ({ width, height, data }) => {
   console.log('arcs', arcs)
 
   return (
-    <svg width={width} height={height} style={{display: "inline-block"}}>
+    <svg key={key} width={width} height={height} style={{display: "inline-block"}}>
       <g transform={`translate(${width / 2}, ${height / 2})`}>
         {arcs.map((arc, i) => {
+          console.log('i', i);
           return <path key={i} d={arc} fill={colorScale(i)}/>
         })}
       </g>

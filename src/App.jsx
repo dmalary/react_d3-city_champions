@@ -4,7 +4,8 @@
 
 import './App.css'
 
-import DonutChart from "../components/DonutChart";
+// import DonutChart from "../components/DonutChart";
+import SmallMultiples from "../components/SmallMultiples";
 
 import data from "../data/data.json";
 
@@ -25,7 +26,8 @@ function App() {
 
   return (
     <>
-      <DonutChart width={900} height={600} data={workingData[0]} />
+      {/* <DonutChart width={200} height={200} data={workingData[0]} /> */}
+      <SmallMultiples data={workingData} />
     </>
   )
 }
