@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+body {
+  /* background-color: #f6f5eb; */
+  background-color: #f2f0ef;
+  color: #000000;
+}
+
+.annotation-layer {
+  text-align: left;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
