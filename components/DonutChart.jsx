@@ -10,14 +10,15 @@ const specs = {
     bottom: 20,
     left: 50,
     right: 25,
-    global: 30
+    global: 20
   },  
 };
 
 const colorScale = d3.scaleOrdinal()
   // .domain(['mlb', 'nfl', 'nba', 'nhl'])
+  // .range(['#26547C', '#EF476F', '#FFD166', '#06D6A0'])
   .domain([0, 1, 2, 3])
-  .range(['#26547C', '#EF476F', '#FFD166', '#06D6A0'])
+  .range(['#ffd147', '#ff58ba', '#39aaff', '#0a0527'])
 
 const DonutChart = ({ key, width, height, data }) => {
 
@@ -36,20 +37,19 @@ const DonutChart = ({ key, width, height, data }) => {
 
     return pie.map((p) => 
       arcPathGenerator({
-        innerRadius: 30,
+        innerRadius: 20,
         outerRadius: radius,
         startAngle: p.startAngle,
         endAngle: p.endAngle
       })
     );
   }, [radius, pie]);
-  console.log('arcs', arcs)
+  // console.log('arcs', arcs)
 
   return (
     <svg key={key} width={width} height={height} style={{display: "inline-block"}}>
       <g transform={`translate(${width / 2}, ${height / 2})`}>
         {arcs.map((arc, i) => {
-          console.log('i', i);
           return <path key={i} d={arc} fill={colorScale(i)}/>
         })}
       </g>

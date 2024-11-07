@@ -13,13 +13,13 @@ const SmallMultiples = ({ data }) => {
   return (
     <div 
       style={{
-        width: 900,
+        width: 1100,
         height: 800,
         display: 'grid',
-        gridTemplateColumns: 'repeat(4, minmax(0, 1fr))' 
+        gridTemplateColumns: 'repeat(7, minmax(0, 1fr))' 
       }}
     >
-      { data.map((datum, i) => ( <DonutChart key={i} width={180} height={180} data={datum} /> ))}
+      { data.map((datum, i) => ( <DonutChart key={i} width={120} height={120} data={datum} /> ))}
     </div>
   )
 }
