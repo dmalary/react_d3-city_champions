@@ -6,17 +6,12 @@ import * as d3 from 'd3';
 
 const specs = {
   margin: {
-    top: 20,
-    bottom: 20,
-    left: 50,
-    right: 25,
     global: 20
   },  
 };
 
 const colorScale = d3.scaleOrdinal()
   // .domain(['mlb', 'nfl', 'nba', 'nhl'])
-  // .range(['#26547C', '#EF476F', '#FFD166', '#06D6A0'])
   .domain([0, 1, 2, 3])
   .range(['#ffd147', '#ff58ba', '#39aaff', '#0a0527'])
 
