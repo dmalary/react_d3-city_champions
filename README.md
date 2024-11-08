@@ -1,4 +1,14 @@
-# React + Vite
+# What city has won the most championships?
+
+React + Vite + d3
+
+[App link](https://dmalary.github.io/react_d3-city_champions/)
+
+### commands
+- install: npm i
+- run: npm run dev
+- build: npm run build
+- deploy: npm run deploy
 
 ref:
 - https://www.react-graph-gallery.com/donut
