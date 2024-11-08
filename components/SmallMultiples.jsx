@@ -21,8 +21,8 @@ const SmallMultiples = ({ data }) => {
       {name: 'nba', value: 0.25},
       {name: 'nhl', value: 0.25},
     ],
-    city: 'City',
-    winTotal: 1,
+    city: 'Legend',
+    winTotal: 0,
   }
   return (
     <div className="chart-grid"

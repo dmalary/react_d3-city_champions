@@ -21,7 +21,7 @@ const colorScale = d3.scaleOrdinal()
 const LegendDonut = ({ keyProp, width, height, data }) => {
   // console.log('data', data)
 
-  const radius = Math.min(width, height) / 2.25 - specs.margin.global;
+  const radius = Math.min(width, height) / 2.4 - specs.margin.global;
   // console.log('radius', radius)
 
   const pie = useMemo(() => {
@@ -95,7 +95,7 @@ const LegendDonut = ({ keyProp, width, height, data }) => {
           y={legendPoint[1]}
           textAnchor={textAnchor}
           dominantBaseline={'middle'}
-          fontSize={10}
+          fontSize={9}
         >
           {label}
         </text>
