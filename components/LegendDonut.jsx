@@ -19,7 +19,7 @@ const colorScale = d3.scaleOrdinal()
   .range(['#ffd147', '#ff58ba', '#39aaff', '#0a0527'])
 
 const LegendDonut = ({ keyProp, width, height, data }) => {
-  console.log('data', data)
+  // console.log('data', data)
 
   const radius = Math.min(width, height) / 2.25 - specs.margin.global;
   // console.log('radius', radius)
@@ -34,7 +34,7 @@ const LegendDonut = ({ keyProp, width, height, data }) => {
   const arcPathGenerator = d3.arc();
 
   const shapes = pie.map((p, i) => {
-    console.log('p.value', p.value);
+    // console.log('p.value', p.value);
 
     const sliceInfo = {
       innerRadius: 15,
