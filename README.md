@@ -8,9 +8,7 @@ ref:
 data: https://www.britannica.com/topic/Professional-Sports-Championships-by-City-2228259
 
 next: 
-- normalize to percentages
 - add legend donut
-  - add new component 
   - add hover legend?
-- most championships
-- annotate + legend
+  - hide legend line if data === 0
+- sort by most championships
