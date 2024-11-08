@@ -28,8 +28,9 @@ function App() {
   return (
     <>
       <div className='annotation-layer'>
-        <h1>Title</h1>
-        <p>summary</p>
+        <h1>What city has won the most championships?</h1>
+        <p>Using data from <a href="https://www.britannica.com/topic/Professional-Sports-Championships-by-City-2228259">Encyclopedia Britannica</a>, I built a small multiples donut chart, to evaluate what North American City has won the most champpionships, within the four major sports (baseball, football, basketball, hockey).</p>
+        <p>Please note, this counts all championships (eg: Cleveland won 9 football championships before the SuperBowl Era.</p>
       </div>
       <SmallMultiples data={workingData} />
     </>
