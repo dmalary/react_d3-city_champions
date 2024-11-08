@@ -34,6 +34,8 @@ const LegendDonut = ({ keyProp, width, height, data }) => {
   const arcPathGenerator = d3.arc();
 
   const shapes = pie.map((p, i) => {
+    console.log('p.value', p.value);
+
     const sliceInfo = {
       innerRadius: 15,
       outerRadius: radius,
@@ -64,7 +66,10 @@ const LegendDonut = ({ keyProp, width, height, data }) => {
     return (
       <g key={i}>
         <path d={slicePath} fill={colorScale(i)}/>
-        <circle cx={centroid[0]} cy={centroid[1]} r={1} />
+        {p.data.value !== 0 &&
+          <circle cx={centroid[0]} cy={centroid[1]} r={1} />
+        }
+        {p.data.value !== 0 &&
         <line 
           x1={centroid[0]} 
           y1={centroid[1]} 
@@ -73,6 +78,8 @@ const LegendDonut = ({ keyProp, width, height, data }) => {
           stroke={'#000'} 
           fill={'#000'}
         />
+        }
+        {p.data.value !== 0 &&
         <line 
           x1={legendPoint[0]} 
           y1={legendPoint[1]} 
@@ -81,15 +88,18 @@ const LegendDonut = ({ keyProp, width, height, data }) => {
           stroke={'#000'} 
           fill={'#000'}
         />
+        }
+        {p.data.value !== 0 &&
         <text 
           x={labelX + (isRightLabel ? 2 : -2)}
           y={legendPoint[1]}
           textAnchor={textAnchor}
           dominantBaseline={'middle'}
-          fontSize={11}
+          fontSize={10}
         >
           {label}
         </text>
+        }
       </g>
     );
 
@@ -102,11 +112,12 @@ const LegendDonut = ({ keyProp, width, height, data }) => {
         {shapes}
       </g>
       <text
-        x={width / 3 + ((data.city).length)}
+        x={width / 3.2 + ((data.city).length / 2)}
         y={height - 3}
         fontSize={13}
+        fontWeight={600}
       >
-        {data.city}
+        {data.city} ({data.winTotal})
       </text>
     </svg>
   )
