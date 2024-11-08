@@ -61,7 +61,7 @@ const LegendDonut = ({ keyProp, width, height, data }) => {
     const isRightLabel = legendPoint[0] > 0;
     const labelX = legendPoint[0] + 3 * (isRightLabel ? 1 : -1);
     const textAnchor = isRightLabel ? "start" : "end";
-    const label = `${p.data.name} - ${(Math.round(p.data.value * 100)).toFixed(0)}%`;
+    const label = `${p.data.name}-${(Math.round(p.data.value * 100)).toFixed(0)}%`;
 
     return (
       <g key={i}>
