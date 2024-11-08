@@ -10,5 +10,4 @@ data: https://www.britannica.com/topic/Professional-Sports-Championships-by-City
 next: 
 - add legend donut
   - add hover legend?
-  - hide legend line if data === 0
-- sort by most championships
+- add sorting?
